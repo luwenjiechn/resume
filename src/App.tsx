@@ -12,8 +12,8 @@ const App = () => {
     })();
   }, []);
   return (
-    <Container style={{ padding: 20 }} fixed>
-      <Paper elevation={3} style={{ padding: "20px" }}>
+    <Container style={{ marginTop: 20, marginBottom: 20 }} maxWidth="md">
+      <Paper elevation={1} style={{ padding: "10px 30px" }}>
         <ReactMarkdown source={markdown}></ReactMarkdown>
       </Paper>
     </Container>
